@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SuperKernel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 800px; margin: 2rem auto; padding: 1rem; color: #222; background: #fff; }
+    h1, h2, h3 { color: #1a237e; }
+    img { max-width: 100%; height: auto; display: block; margin: 1.5rem auto; }
+    ul { margin-left: 1.5rem; }
+    blockquote { color: #555; border-left: 4px solid #90caf9; padding-left: 1em; margin: 1.5em 0; background: #f5faff; }
+    hr { border: none; border-top: 1px solid #eee; margin: 2em 0; }
+    code { background: #f5f5f5; padding: 2px 4px; border-radius: 3px; }
+    .footer { margin-top: 2em; font-weight: bold; font-size: 1.1em; }
+  </style>
+</head>
+<body>
+
+<h1><a href="https://github.com/leoustc/superkernel">SuperKernel</a></h1>
+
+<p>
+SuperKernel is a custom Jupyter kernel that brings supercomputing to your desktop — <strong>without adding AI infrastructure complexity</strong>.<br>
+Run notebook cells across many GPUs and nodes via PyTorch Distributed (TorchRun). Perfect for AI, ML, and HPC at any scale.
+</p>
+
+<img src="https://raw.githubusercontent.com/leoustc/superkernel/main/superkernel.png" alt="SuperKernel">
+
+<p>
+SuperKernel unifies scale-up networking (NVLink, PCIe, CXL) with scale-out networking (RDMA, InfiniBand, Ethernet), making them work together as if they were one single kernel. Inspired by NVIDIA’s SuperPOD, SuperKernel transforms the notebook into a gateway to supercluster-class computing.
+</p>
+
+<hr>
+
+<h2>Why SuperKernel?</h2>
+<ul>
+  <li>🖥️ <strong>Stay in Jupyter</strong> — zero workflow change.</li>
+  <li>⚡ <strong>Scale to clusters</strong> — execute one cell on thousands of GPUs.</li>
+  <li>🔗 <strong>Scale-up + Scale-out unified</strong> — intra-node and inter-node networking exposed as one kernel abstraction.</li>
+  <li>🤖 <strong>AI/ML native</strong> — debug collectives, shard data, inspect per-rank state.</li>
+  <li>🔬 <strong>Transparent</strong> — per-rank outputs merged back into a single cell.</li>
+  <li>🌐 <strong>Elastic</strong> — provision instantly, scale elastically, and destroy completely when done.</li>
+  <li>🚫 <strong>No more AI infra complexity</strong> — scale with boundless simplicity, no new tools or platforms to learn.</li>
+  <li>♾️ <strong>Boundless scale</strong> — from your laptop to the world’s largest clusters, all from your notebook.</li>
+</ul>
+
+<hr>
+
+<h2>Vision</h2>
+<blockquote>
+  “One kernel, infinite scale — SuperKernel unifies scale-up and scale-out networking into a single execution space, unlocking AI/ML at supercluster scale with a single click. No more infrastructure headaches, just code and scale.”
+</blockquote>
+
+<p>
+SuperKernel = Scale-Up + Scale-Out → One Kernel
+</p>
+
+<p>
+Just as NVIDIA’s SuperPOD showed how GPUs can be assembled into a supercomputer, SuperKernel shows how your notebook can become the control plane of a supercluster.
+</p>
+
+<img src="https://raw.githubusercontent.com/leoustc/superkernel/main/superkernel.gif" alt="Super Kernel Demo">
+
+<hr>
+
+<h2>Examples</h2>
+<p>See <code>examples.ipynb</code> for runnable cells that demonstrate:</p>
+<ol>
+  <li><strong>Cluster info</strong> — <code>%info</code> magic shows world size, CUDA, devices.</li>
+  <li><strong>Multi-host shell</strong> — run <code>!hostname</code> on every rank and merge results.</li>
+  <li><strong>All-Reduce</strong> — interactive collective across ranks.</li>
+  <li><strong>Data sharding</strong> — split a dataset by rank inside a single cell.</li>
+  <li><strong>Barrier timing</strong> — measure sync latencies across the cluster.</li>
+</ol>
+
+<hr>
+
+<h2>Learn More</h2>
+<ul>
+  <li>PyPI: (coming soon: superkernel)</li>
+  <li>Backend: PyTorch Distributed</li>
+  <li>Inspiration: NVIDIA SuperPOD</li>
+</ul>
+
+<hr>
+
+<h2>Further Readings</h2>
+<p>To dive deeper into the ideas behind SuperKernel:</p>
+<ul>
+  <li><a href="https://pytorch.org/docs/stable/elastic/run.html">Distributed PyTorch (TorchRun)</a></li>
+  <li><a href="https://www.nvidia.com/en-us/data-center/nvlink/">NVIDIA NVLink and NVSwitch (scale-up networking)</a></li>
+  <li><a href="https://community.mellanox.com/s/article/what-is-rdma-x">RDMA and InfiniBand (scale-out networking)</a></li>
+  <li><a href="https://docs.nvidia.com/dgx-superpod/reference-architecture/scalable-infrastructure-h200/latest/dgx-superpod-architecture.html">NVIDIA SuperPOD — inspiration for cluster-scale AI infrastructure</a></li>
+</ul>
+
+<hr>
+
+<div class="footer">
+SuperKernel:<br>
+No more AI infra complexity. Boundless scale. All from your notebook.
