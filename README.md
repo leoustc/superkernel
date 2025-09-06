@@ -61,7 +61,7 @@ To dive deeper into the ideas behind SuperKernel:
 - [Distributed PyTorch (TorchRun)](https://pytorch.org/docs/stable/elastic/run.html)
 - [NVIDIA NVLink and NVSwitch (scale-up networking)](https://www.nvidia.com/en-us/data-center/nvlink/)
 - [RDMA and InfiniBand (scale-out networking)](https://community.mellanox.com/s/article/what-is-rdma-x)
-- [NVIDIA SuperPOD — inspiration for cluster-scale AI infrastructure](https://www.nvidia.com/en-us/data-center/superpod/)
+- [NVIDIA SuperPOD — inspiration for cluster-scale AI infrastructure](https://docs.nvidia.com/dgx-superpod/reference-architecture/scalable-infrastructure-h200/latest/dgx-superpod-architecture.html)
 
 ---
 
