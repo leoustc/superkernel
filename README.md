@@ -2,7 +2,9 @@
 
 SuperKernel is a custom Jupyter kernel that brings supercomputing to your desktop — **without adding AI infrastructure complexity**.  
 
+<div align="center">
 <img src="https://raw.githubusercontent.com/leoustc/superkernel/main/superkernel-avatar.PNG" alt="Super Kernel" style="width:20%; min-width:120px; display:block; margin:auto;" />
+</div>
 
 Run notebook cells across many GPUs and nodes via PyTorch Distributed (TorchRun). Perfect for AI, ML, and HPC at any scale.
 
