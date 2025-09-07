@@ -3,9 +3,15 @@
 SuperKernel is a custom Jupyter kernel that brings supercomputing to your desktop — **without adding AI infrastructure complexity**.  
 Run notebook cells across many GPUs and nodes via PyTorch Distributed (TorchRun). Perfect for AI, ML, and HPC at any scale.
 
-![Super Kernel](superkernel.png)
+![Super Kernel](superkernel_new.png)
 
 SuperKernel unifies scale-up networking (NVLink, PCIe, CXL) with scale-out networking (RDMA, InfiniBand, Ethernet), making them work together as if they were one single kernel. Inspired by NVIDIA’s SuperPOD, SuperKernel transforms the notebook into a gateway to supercluster-class computing.
+
+---
+
+## Updates: Run Torchrun and MPI clusters side by side
+
+[![SuperKernel Demo — TorchRun & MPI side-by-side](https://img.youtube.com/vi/q0hjIDWgK9Y/hqdefault.jpg)](https://www.youtube.com/watch?v=q0hjIDWgK9Y "SuperKernel Demo: Run TorchRun & MPI Side-by-Side in Your Notebook")
 
 ---
 
