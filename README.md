@@ -1,7 +1,6 @@
 # SuperKernel
 
 SuperKernel is a custom Jupyter kernel that brings supercomputing to your desktop — **without adding AI infrastructure complexity**.  
-
 <div align="center">
 <img src="https://raw.githubusercontent.com/leoustc/superkernel/main/superkernel-avatar.PNG" alt="Super Kernel" style="width:20%; min-width:120px; display:block; margin:auto;" />
 </div>
@@ -12,6 +11,16 @@ Run notebook cells across many GPUs and nodes via PyTorch Distributed (TorchRun)
 ![Super Kernel](superkernel_new.png)
 
 SuperKernel unifies scale-up networking (NVLink, PCIe, CXL) with scale-out networking (RDMA, InfiniBand, Ethernet), making them work together as if they were one single kernel. Inspired by NVIDIA’s SuperPOD, SuperKernel transforms the notebook into a gateway to supercluster-class computing.
+
+---
+
+## Updates: Run Torchrun on clusters of GPUs 16 GPUs on one notebook kernel
+
+<div align="center">
+  <a href="https://raw.githubusercontent.com/leoustc/superkernel/main/superkernel_16_gpu_30fps.mp4" title="SuperKernel Demo: Run single notebook kernel on 16 GPUs" target="_blank">
+    <img src="https://img.youtube.com/vi/q0hjIDWgK9Y/hqdefault.jpg" alt="SuperKernel Demo: Run single notebook kernel on 16 GPUs" style="max-width:100%; border-radius:10px;">
+  </a>
+</div>
 
 ---
 
