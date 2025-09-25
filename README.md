@@ -16,11 +16,7 @@ SuperKernel unifies scale-up networking (NVLink, PCIe, CXL) with scale-out netwo
 
 ## Updates: Run Torchrun on clusters of GPUs 16 GPUs on one notebook kernel
 
-<div align="center">
-  <a href="https://raw.githubusercontent.com/leoustc/superkernel/main/superkernel_16_gpu_30fps.mp4" title="SuperKernel Demo: Run single notebook kernel on 16 GPUs" target="_blank">
-    <img src="https://img.youtube.com/vi/q0hjIDWgK9Y/hqdefault.jpg" alt="SuperKernel Demo: Run single notebook kernel on 16 GPUs" style="max-width:100%; border-radius:10px;">
-  </a>
-</div>
+![Super Kernel Demo](superkernel_16_gpu_30fps.gif)
 
 ---
 
